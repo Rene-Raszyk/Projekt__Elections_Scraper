@@ -8,8 +8,19 @@ Email: 2004reno2004@gmail.com
 
 Tento projekt slouži k extrahování výsledků z parlamentních voleb v roce 2017. Odkaz k prohlédnutí najedete [zde](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)
 
+## Požadavky
+
+- Python 3.8 nebo novější
+- `pip` pro správu Python balíčků
+
 ## Instalace knihoven
 
+**Naklonování repozitáře**
+
+   ```bash
+   git clone https://github.com/uzivatelske_jmeno/nazev_projektu.git
+   cd nazev_projektu
+   ```
 
 
 ## Spoštění projektu
