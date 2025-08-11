@@ -189,7 +189,7 @@ def kontrola_vstupu():
     for radek in radky_tabulky:
         try:
             if radek.select_one("a").get("href") in odkaz:
-                print("Správný odkaz.")
+                print("Správně zadaný odkaz.")
                 break
         except:
             pass
@@ -200,7 +200,7 @@ def kontrola_vstupu():
     jmeno_vystupniho_souboru = sys.argv[2]
     
     if jmeno_vystupniho_souboru[-4:] == ".csv":
-        print("Správná přípona souboru.")
+        print("Správně zadaná přípona souboru.")
         return odkaz, jmeno_vystupniho_souboru
     else:
         print("Nesprávná přípona souboru. Ukončuji program..")
@@ -211,6 +211,6 @@ def kontrola_vstupu():
 if __name__ == "__main__":
 
     url, jmeno_souboru = kontrola_vstupu()
-    print("Zpracovávájí se výsledky, prosím neukončujte program..")
+    print("Zpracovávájí se výsledky, prosím neukončujte program...")
     hlavni(url, jmeno_souboru)
     print(f"Vysledky byly zapsany do {jmeno_souboru}.")
