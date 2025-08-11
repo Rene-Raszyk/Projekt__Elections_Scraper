@@ -1,2 +1,1 @@
-# Projekt__Elections_Scraper
-
+python main.py "https://www.volby.cz/pls/ps2017nss/ps36?xjazyk=CZ" "bomba.csv"
