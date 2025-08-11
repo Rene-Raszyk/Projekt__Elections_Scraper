@@ -1,6 +1,6 @@
 # Elections Scraper
 
-Třetí projekt do Engeto Online Python Akademie
+Třetí projekt do Engeto Online Python Akademie 
 Autor: Rene Raszyk 
 Email: 2004reno2004@gmail.com
 
